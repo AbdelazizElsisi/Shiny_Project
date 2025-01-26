@@ -1,0 +1,47 @@
+body {
+    background:rgb(0, 0, 0,0.7) url(../Images/background\ 2\ .jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+div {
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 280px;
+} 
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 5px;
+    
+  }
+  
+
+label {
+    font-size: 18px;
+    
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    width: 30%;
+    border-radius: 9px;
+    background-color: #004580;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #4085a5;
+  }
+

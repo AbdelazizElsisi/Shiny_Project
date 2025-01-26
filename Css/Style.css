@@ -1,0 +1,255 @@
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #343942;
+}
+  
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #navbar img {
+    width: 75px;
+    margin-left: 100px;
+  }
+  
+  nav ul {
+    display: flex;
+    margin-right: 100px;
+    list-style: none;
+    margin-bottom: 0;
+    align-items: center;
+    
+  }
+  
+  nav ul li a {
+    padding: 15px 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav ul li a:hover {
+    border-bottom: 2px solid #33A7FF;
+    color: #fff;
+  }
+
+  
+
+  nav ul li:nth-child(6) a:hover {
+    border-bottom: none;
+    color: #fff;
+  }
+
+  .home {
+    height: 100vh;
+    background: url(../Images/slide-1.jpg) center center/cover no-repeat;
+    position: relative;
+    
+  }
+  
+  .home .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%; 
+  }
+  
+  .home::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgb(0, 0, 0, 0.3);
+  }
+  
+  .home * {
+    z-index: 10;
+  }
+
+  .home .content h1 {
+    font-size: 50px;
+    font-weight: normal;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .home .content h2 {
+    font-size: 85px;
+    font-weight: normal;
+    color: #33A7FF;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+ 
+
+ /* -------------------End of the header---------------- */
+ 
+ 
+ /* -------------------start of section how_its_work---------------- */
+
+
+.how_its_work
+{
+    background: #f4f4f4;
+    padding: 50px;
+}
+
+.how_its_work h2{
+     border-bottom: double  7px;
+     width: 250px;
+     text-align: center;
+     margin: auto;
+     font-weight: 600;
+ }
+.work_box
+{
+     margin-top: 40px;
+     text-align: center;
+}
+.work_box h4
+{
+    margin-top: 20px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+    color: black;
+}
+.work_box p
+{
+    color: #9f9f9f;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+ /* -------------------End of section how_its_work---------------- */
+ 
+ 
+ /* -------------------start of section dates---------------- */
+.row .no-margin{
+    margin: 0;
+    padding: 0;
+}
+.row .dates-left{
+    background: #004580;
+    padding: 31.6px;
+    padding-left: 100px;
+    height: 320px;
+    color: white;
+}
+.row .left h1{
+    font-weight: 600;
+}
+.row .left  p{
+    line-height: 28px;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 19px
+}
+.date-img{
+    background-image: url(../Images/help-img.png);
+    width: 100%;
+    background-size: cover;
+    height: 320px;
+}
+
+
+
+/* ---------------Media queires for dates---------- */
+@media screen and (max-width:1024px) {
+    .row .dates-left{
+        padding-left: 40px;
+    }
+    
+}
+
+
+
+ /* -------------------End of section dates---------------- */
+
+/* -------------------start of section contact---------------- */
+ #contact {
+    margin: auto;
+    padding: 30px;
+    background-color: #f4f4f4;
+    color: #004580;
+  }
+  
+  #contact h2 {
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .contact-form button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #004580;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #4085a5;
+    border-radius: 20px;
+  }
+.follow{
+    font-size: 70px;
+    font-weight: 600;
+}
+.social i{
+    font-size: 35px;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social i:hover{
+    background-color: #004580;
+    border-radius: 50%;
+    color: white;
+}
+.flex-column li {
+    font-size: 25px;
+}
+
+
+/* -------------------end of section contact---------------- */

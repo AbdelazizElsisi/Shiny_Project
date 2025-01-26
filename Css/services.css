@@ -1,0 +1,51 @@
+
+.service
+{
+    background: #f4f4f4;
+    padding: 50px;
+    background:rgb(0, 0, 0,0.9) url('../Images/background\ 2\ .jpg') center center/cover no-repeat;
+    background-blend-mode: darken;
+}
+
+.service h2{
+
+     text-align: left;
+     margin-left: 90px;
+     font-weight: 600;
+     color: #33A7FF;
+ }
+ .service p {
+    font-weight: bold;
+    color: #9f9f9f;
+    margin-left: 90px;
+ }
+.work_box
+{
+     margin-top: 40px;
+     text-align: center;
+}
+.work_box h4
+{
+    margin-top: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #33A7FF;
+    margin-left: 50px;
+}
+.work_box p
+{
+    color: #9f9f9f;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.work_box img {
+    height: 400px;
+}
